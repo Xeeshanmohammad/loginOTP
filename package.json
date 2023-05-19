@@ -2,6 +2,7 @@
   "name": "OTP-GENERATOR",
   "description": "Otp generator app",
   "main": "index.js",
+  "version": "Node.js 18.x",
   "license": "MIT",
   "scripts": {
     "start": "nodemon server.js"   
