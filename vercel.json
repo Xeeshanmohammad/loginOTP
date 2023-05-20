@@ -3,13 +3,13 @@
     "builds":[
         {
             "src":"server",
-            "use":"@now/node"
+            "use":"@vecel/node"
         }
     ],
     "routes":[
         {
             "src":"/(.*)",
-            "dest":"server"
+            "dest":"/server.js"
         }
     ]
 }
