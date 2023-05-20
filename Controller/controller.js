@@ -148,7 +148,7 @@ router.post("/verifyotp", async (req, res) => {
       OtpSentTime: "",
     };
     await User.findOneAndUpdate({ _id: DbUser._id }, obj);
-    let token = jwt.sign({ ID: DbUser._id }, process.env.JWTSECRET, {
+    let token = jwt.sign({ ID: DbUser._id }, "jwtsecret", {
       expiresIn: 60 * 60,
     });
     return res.status(200).json({ message: "Logged in", token: token });

@@ -13,9 +13,9 @@ function uniqueId(length) {
 const transporter = nodemailer.createTransport({
     service: "gmail",
     auth: {
-      user:process.env.EMAILUSER,
+      user:'zeeshanmohammad.se@gmail.com',
 
-      pass: process.env.EMAILPASSWORD,
+      pass: 'bveemducqzccfhzk',
     },
   });
   

@@ -19,7 +19,7 @@ app.use('/api/user',authRouter)
 app.get('/',(req,res)=>{
     res.send('<h2>SUPER TASK- OTP-GENERATOR</h2>')
 })
-const port = process.env.PORT 
+const port = process.env.PORT || 8686
 const start = async()=>{
 
     try {
