@@ -2,7 +2,7 @@ const mongoose = require('mongoose')
 
 const connectDb = ()=>{
     // mongoose.set('strictQuery', true);
-    return mongoose.connect( "mongodb+srv://Zeeshan:sardar.68221@nodejs-projects.a80ff.mongodb.net/otp?retryWrites=true&w=majority",{
+    return mongoose.connect( "mongodb+srv://Zeesha:dar.21@nodejs-projects.a80ff.mongodb.net/otp?retryWrites=true&w=majority",{
         // useNewUrlParser: true,
         // useFindAndModify: false,
         // useUnifiedTopology: true
